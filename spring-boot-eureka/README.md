@@ -11,7 +11,7 @@
 	* To run this application use command `mvn spring-boot:run` or `java -jar eureka-server.jar`
 * eureka-discovery-client
 	* This is an application which has configuration about eureka server to connect and register as a member.
-	* To run the application  use command `mvn spring-boot:run -Dserver.port=<8081/8082>` or `java -jar eureka-discovery-client.jar -Dserver.port=<8081/8082>` - Here, port number differs as to run the application as 2 nodes.
+	* To run the application  use command `mvn spring-boot:run -Dserver.port=<8081/8082>` or `java -jar eureka-discovery-client.jar -Dserver.port=<8081/8082>` - Here, port number differs as to run the application as 2 nodes. 
 * eureka-zuul-routing
 	* It is another eureka discovery client application, however added with spring-zuul-routing framework for routing the service access.
 	* To run the application use command `mvn spring-boot:run` or `java -jar eureka-zuul-routing.jar`
