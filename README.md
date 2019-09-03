@@ -3,5 +3,5 @@ This repository contains code for micro-services architecture implementation ref
 
 
 ## Reference Implementation
-* ![spring-boot-eureka](.spring-boot-eureka/)
+* [spring-boot-eureka](/spring-boot-eureka)
 
